@@ -1,20 +1,30 @@
 .header__nav {
   background-color: #f4f7fb;
 }
-.header__nav--container {
+.header__nav__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-.header__nav--center ul li {
+
+.header__nav--center ul {
   display: flex;
   list-style-type: none;
+  gap: 4em;
+  margin-top: 20px;
 }
 .header__nav--center ul li a {
   display: flex;
   text-decoration: none;
   color: #000;
 }
+.header__nav--right {
+  display: flex;
+  gap: 5em;
+}
 .header__nav--center {
   display: flex;
-  flex-direction: row;
+}
+.header__nav--center ul li a:hover {
+  color: #eea539;
 }
