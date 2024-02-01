@@ -1,16 +1,20 @@
-.nav-container {
+.header__nav {
+  background-color: #f4f7fb;
+}
+.header__nav--container {
   display: flex;
   justify-content: space-between;
 }
-
-.nav-container li {
+.header__nav--center ul li {
+  display: flex;
   list-style-type: none;
 }
-.nav-container li a {
+.header__nav--center ul li a {
+  display: flex;
   text-decoration: none;
-  color: black;
+  color: #000;
 }
-.nav-container.nav-list{
-    display:flex;
-    
+.header__nav--center {
+  display: flex;
+  flex-direction: row;
 }
