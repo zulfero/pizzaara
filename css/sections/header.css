@@ -23,12 +23,13 @@
   display: flex;
   gap: 5em;
 }
-.header__nav--center {
-  display: flex;
-}
 .header__nav--center ul li a:hover {
   color: #eea539;
 }
 .header__nav--hamburger-menu {
   display: none;
+}
+.hero {
+  margin-left: 50px;
+  padding-top: 50px;
 }
