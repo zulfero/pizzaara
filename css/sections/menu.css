@@ -1,4 +1,17 @@
 .menu__content {
   display: flex;
+  justify-content: center;
+  padding-top: 80px;
   align-items: center;
+  padding-bottom: 80px;
+}
+.menu__content p {
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+.menu__content--options {
+  display: flex;
+  padding-top: 250px;
+  gap: 100px;
 }
