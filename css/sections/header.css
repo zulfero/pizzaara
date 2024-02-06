@@ -78,6 +78,9 @@
   padding-top: 20px;
 }
 .review__card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background-color: #f4f7fb;
   padding: 2em;
   padding-top: 20px;
@@ -91,16 +94,18 @@
   height: 50px;
   border-radius: 50%;
   align-items: center;
+  margin-top: 20px;
 }
 .review__card p {
   text-align: center;
 }
-.pizza__float--image {
-  /* display: flex;
-  justify-content: center; */
-  padding-right: 20px;
-}
-.pizza__float--images {
+.pizza {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
+@media screen(max-width:600px) {
+  nav {
+    display: none;
+  }
+}
+
