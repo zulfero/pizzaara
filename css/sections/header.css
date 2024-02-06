@@ -95,3 +95,12 @@
 .review__card p {
   text-align: center;
 }
+.pizza__float--image {
+  /* display: flex;
+  justify-content: center; */
+  padding-right: 20px;
+}
+.pizza__float--images {
+  display: flex;
+  justify-content: center;
+}
