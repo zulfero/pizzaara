@@ -81,6 +81,7 @@
   background-color: #f4f7fb;
   padding: 2em;
   padding-top: 20px;
+  padding-left: 2em;
 }
 .review__card--image {
   display: flex;
@@ -90,4 +91,7 @@
   height: 50px;
   border-radius: 50%;
   align-items: center;
+}
+.review__card p {
+  text-align: center;
 }
