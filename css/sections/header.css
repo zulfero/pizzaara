@@ -29,7 +29,66 @@
 .header__nav--hamburger-menu {
   display: none;
 }
-.hero {
-  margin-left: 50px;
-  padding-top: 50px;
+.hero__content {
+  display: flex;
+}
+.hero__content--right,
+.hero__content--left {
+  width: 50%;
+}
+
+.hero__content__left--container {
+  width: 90%;
+}
+
+.input__container {
+  margin-top: 30px;
+  margin-top: 30px;
+  border: 1px solid rgb(191, 173, 173);
+  width: fit-content;
+  border-radius: 5px;
+}
+.input__container input {
+  border: none;
+  padding: 2em 2em;
+  background-color: transparent;
+}
+.input__container {
+  display: flex;
+}
+.btn {
+  margin-top: 0;
+  border: 1px solid black;
+  width: fit-content;
+  border-radius: 5px;
+}
+.btn button {
+  border: none;
+  padding: 3em 3em;
+  background-color: rgb(40, 37, 37);
+  width: fit-content;
+}
+.btn__content {
+  color: white;
+  font-size: 80%;
+}
+.review {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  align-items: center;
+}
+.review__card {
+  background-color: #f4f7fb;
+  padding: 2em;
+  /* align-items: center; */
+  padding-top: 20px;
+}
+.review__card--image {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
