@@ -1,1 +1,4 @@
-.
+.menu__content {
+  display: flex;
+  align-items: center;
+}
