@@ -1,17 +1,32 @@
-.menu__content {
-  display: flex;
-  justify-content: center;
-  padding-top: 80px;
-  align-items: center;
-  padding-bottom: 80px;
-}
-.menu__content p {
-  display: flex;
-  margin-top: 20px;
-  padding-bottom: 50px;
+.menu__content--text {
+  text-align: center;
 }
 .menu__content--options {
   display: flex;
-  padding-top: 250px;
-  gap: 100px;
+  margin-top: 5%;
+  justify-content: center;
+  align-items: center;
+  gap: 12em;
+  margin-bottom: 50px;
+  border-bottom: solid black;
 }
+.menu__content--options h4:hover {
+  color: #eea539;
+  cursor: pointer;
+}
+
+.sample__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  padding-bottom: 20px;
+  background-color: #f4f7fb;
+  gap: 3em;
+  width: 100%;
+}
+
+.sample__image>div{
+   flex:1 
+}
+
