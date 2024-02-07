@@ -21,14 +21,15 @@
 }
 .header__nav--right {
   display: flex;
-  gap: 5em;
+  gap: 3em;
 }
 .header__nav--center ul li a:hover {
   color: #eea539;
 }
-.header__nav--hamburger-menu {
+.header__nav--hamburger-menu{
   display: none;
 }
+
 .hero__content {
   display: flex;
 }
@@ -104,9 +105,15 @@
   display: flex;
   justify-content: flex-end;
 }
-@media screen(max-width:600px) {
-  nav {
+
+@media screen and (max-width:450px) {
+  .header__nav--hamburger-menu {
+    display: block;
+  }
+  .header__nav{
+    background-color: aqua;
+  }
+  .header__nav--center {
     display: none;
   }
 }
-

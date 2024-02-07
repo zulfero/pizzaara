@@ -12,12 +12,18 @@
   width: 90%;
   margin: 0 auto;
 }
-h1{
+h1 {
   font-size: 50px;
 }
 .text__orange {
   color: #eea539;
 }
+.text__gray{
+  color: gray;
+}
 h2 {
   font-size: 50px;
 }
+
+
+
