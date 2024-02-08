@@ -1,0 +1,15 @@
+.Reason__content--right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -63em;
+  margin-left: 47em;
+}
+.Reason__content p{
+    padding:5px;
+}
+.Reason__content--testimonials{
+    width: 20px;
+
+}
+.

@@ -1,5 +1,6 @@
 @import url("sections/header.css");
 @import url("sections/menu.css");
+@import url("sections/why\ us.css");
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap");
 
 * {
@@ -18,12 +19,9 @@ h1 {
 .text__orange {
   color: #eea539;
 }
-.text__gray{
+.text__gray {
   color: gray;
 }
 h2 {
   font-size: 50px;
 }
-
-
-

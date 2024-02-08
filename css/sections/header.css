@@ -26,7 +26,7 @@
 .header__nav--center ul li a:hover {
   color: #eea539;
 }
-.header__nav--hamburger-menu{
+.header__nav--hamburger-menu {
   display: none;
 }
 
@@ -75,7 +75,7 @@
 }
 .review {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding-top: 20px;
 }
 .review__card {
@@ -106,11 +106,11 @@
   justify-content: flex-end;
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width: 450px) {
   .header__nav--hamburger-menu {
     display: block;
   }
-  .header__nav{
+  .header__nav {
     background-color: aqua;
   }
   .header__nav--center {
