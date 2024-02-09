@@ -26,6 +26,8 @@
 .Reason__content--images {
   display: flex;
   justify-content: center;
+  margin-left: 50em;
+  /* flex-direction: column; */
 }
 
 .Reason__content--img {
