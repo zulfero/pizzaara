@@ -1,6 +1,7 @@
 footer {
   background-color: black;
   margin-top: 10em;
+  height: 50vh;
 }
 .net__contact {
   display: flex;
@@ -12,13 +13,33 @@ footer h4 {
   font-size: 30;
 }
 
-/* .net__contact--image{
-    width: 30px;
-} */
 .quick__links--information {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: -25px;
+  margin: -3.4em 7em;
+}
+.quick__links--information ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 2em;
+  color: white;
+  font-size: 20px;
+}
+.contact__form .click{
+    border: none;
+    padding: 2em 4em;
+    
+}
+
+.contact__form input{
+    border: none;
+    padding: 2em 4em;
+}
+.contact__form--info{
+    background-color: azure;
+   width: fit-content;
+ border-radius: 45%;
+
 }
