@@ -1,7 +1,20 @@
-.contact__lines{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 5em;
+.contact__lines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5em;
+}
+.contact__icon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f4f7fb;
+  padding: 2em;
+  width: 30%;
+}
+.contact__lines--icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
 }

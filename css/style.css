@@ -2,6 +2,7 @@
 @import url("sections/menu.css");
 @import url("sections/why\ us.css");
 @import url("sections/contact.css");
+@import url("sections/footer.css");
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap");
 
 * {
@@ -25,4 +26,7 @@ h1 {
 }
 h2 {
   font-size: 50px;
+}
+h5{
+  font-size: 20px;
 }

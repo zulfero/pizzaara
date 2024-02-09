@@ -1,0 +1,10 @@
+footer {
+  background-color: black;
+  margin-top: 10em;
+}
+.net__contact{
+    display: flex;
+}
+.net__contact h4 {
+  color: white;
+}
