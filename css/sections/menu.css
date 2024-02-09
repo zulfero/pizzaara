@@ -63,17 +63,18 @@
   border: none;
   font-weight: bold;
 }
-
-.view__btn{
-padding-top: 5em;
-padding-bottom: 3em;
+.View__bton{
+  display: flex;
+  margin: 5em;
+  justify-content: center;
 }
+
 
 button {
   border: none;
-  border-radius: 10%;
+  border-radius: 5%;
   background-color: #eea539;
-  padding: 1em 3em;
+  padding: 1em 4em;
   color: white;
  
 }

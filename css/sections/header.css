@@ -75,8 +75,8 @@
 }
 .review {
   display: flex;
-  /* justify-content: space-between; */
-  padding-top: 20px;
+  justify-content: space-between;
+  margin-top: 2em;
 }
 .review__card {
   display: flex;
@@ -84,9 +84,7 @@
   flex-direction: column;
   background-color: #f4f7fb;
   padding: 2em;
-  padding-top: 20px;
-  padding-left: 2em;
-  padding-bottom: 20px;
+ 
 }
 .review__card--image {
   display: flex;
@@ -96,11 +94,9 @@
   height: 50px;
   border-radius: 50%;
   align-items: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
-.review__card p {
-  text-align: center;
-}
+
 .pizza {
   display: flex;
   justify-content: flex-end;

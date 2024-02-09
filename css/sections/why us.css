@@ -3,10 +3,8 @@
   align-items: center;
   flex-direction: column;
   background-color: #f4f7fb;
-  padding: 2em;
-  padding-top: 20px;
-  padding-left: 2em;
-  padding-bottom: 20px;
+  padding: 3em;
+  height: 118vh;
 }
 
 .Reason__content--right {
@@ -21,13 +19,20 @@
 }
 .Reason__content h5 {
   margin: 20px;
-  padding-top: px;
+  
 }
+
 .Reason__content--images {
   display: flex;
   justify-content: center;
   margin-left: 50em;
-  /* flex-direction: column; */
+  flex-direction: column;
+  background-color: #f4f7fb;
+}
+.reason__content--color {
+  background-color: white;
+  height: 24vh;
+  margin: 2em;
 }
 
 .Reason__content--img {
@@ -38,4 +43,5 @@
   height: 50px;
   border-radius: 50%;
   align-items: center;
+  flex-direction: column;
 }
