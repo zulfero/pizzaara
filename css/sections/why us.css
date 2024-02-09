@@ -1,15 +1,39 @@
+.Reason__content--testimonials {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f4f7fb;
+  padding: 2em;
+  padding-top: 20px;
+  padding-left: 2em;
+  padding-bottom: 20px;
+}
+
 .Reason__content--right {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: -63em;
-  margin-left: 47em;
+  margin-top: -65em;
+  margin-left: 45em;
 }
-.Reason__content p{
-    padding:5px;
+.Reason__content p {
+  margin-top: 10px;
 }
-.Reason__content--testimonials{
-    width: 20px;
+.Reason__content h5 {
+  margin: 20px;
+  padding-top: px;
+}
+.Reason__content--images {
+  display: flex;
+  justify-content: center;
+}
 
+.Reason__content--img {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-items: center;
 }
-.
