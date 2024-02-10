@@ -27,19 +27,16 @@ footer h4 {
   color: white;
   font-size: 20px;
 }
-.contact__form .click{
-    border: none;
-    padding: 2em 4em;
-    
+.contact__form .click {
+  border: none;
+  padding: 2em 4em;
 }
 
-.contact__form input{
-    border: none;
-    padding: 2em 4em;
+.contact__form input {
+  border: none;
+  padding: 2em 4em;
 }
-.contact__form--info{
-    background-color: azure;
-   width: fit-content;
- border-radius: 45%;
-
+.contact__form--info {
+  width: fit-content;
+  border-radius: 40%;
 }

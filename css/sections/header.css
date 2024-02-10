@@ -87,7 +87,7 @@
   padding: 2em;
 }
 .review__card p {
-  font-weight: bold;
+  font-weight: bold ;
 }
 .review__card--image {
   display: flex;
