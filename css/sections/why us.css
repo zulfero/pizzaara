@@ -1,23 +1,28 @@
-.Reason__content--testimonials {
+ .reason__content{
+  display:flex ;
+  gap: 3em;
+ }
+ .reason__content--testimonials {
   display: flex;
-  align-items: center;
   flex-direction: column;
   background-color: #f4f7fb;
-  height: 118vh;
-  width: 50%;
+
 }
 
-.Reason__content--right {
+.reason__content--right {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.Reason__content--images {
+
+.reason__content--images {
   display: flex;
   justify-content: center;
   flex-direction: column;
   background-color: #f4f7fb;
+  gap: 2em;
+
 }
 .reason__content--color {
   background-color: white;
@@ -25,7 +30,7 @@
   margin: 2em;
 }
 
-.Reason__content--img {
+.reason__content--img {
   display: flex;
   justify-content: center;
   background-color: black;
@@ -35,3 +40,7 @@
   align-items: center;
   flex-direction: column;
 }
+
+
+
+
